@@ -36,8 +36,13 @@ about:
   license_family: BSD
   license_file: LICENSE.rst
   summary: Various helpers to pass trusted data to untrusted environments.
+  description: |
+    Internally itsdangerous uses HMAC and SHA1 for signing data and bases the
+    implementation on the Django signing module.  It also however supports JSON Web
+    Signatures (JWS).
   doc_url: http://pythonhosted.org/itsdangerous
   dev_url: https://github.com/pallets/itsdangerous
+  doc_source_url: https://github.com/pallets/itsdangerous/blob/master/docs/index.rst
 
 extra:
   recipe-maintainers:
