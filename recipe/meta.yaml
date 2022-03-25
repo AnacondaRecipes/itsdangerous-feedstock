@@ -1,7 +1,7 @@
 {% set name = "itsdangerous" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.2" %}
 {% set hash_type = "sha256" %}
-{% set hash = "9e724d68fc22902a1435351f84c3fb8623f303fffcc566a4cb952df8c572cff0" %}
+{% set hash = "5dbbc68b317e5e42f327f9021763545dc3fc3bfe22e6deb96aaf1fc38874156a" %}
 
 package:
   name: {{ name|lower }}
